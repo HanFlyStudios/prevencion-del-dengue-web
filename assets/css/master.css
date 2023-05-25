@@ -1131,11 +1131,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a158ed",endCo
 	transform: translate(-50%, -120%);
 	-webkit-transform: translate(-50%, -120%);
 	-moz-transform: translate(-50%, -120%);
-	background: url(../images/virus-2.svg) no-repeat;
+	background: url(../images/svg/mapa.svg) no-repeat;
 }
 
 .box-title-two:after, .box-title-three:after{
-	background: url(../images/virus-1.svg) no-repeat;
+	background: url(../images/dengue/mosquito.png) no-repeat;
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);
@@ -1463,11 +1463,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a158ed",endCo
 }
 
 .virus-box-1 {
-	left: -4%;
+	left: 5%;
 	bottom:-23%;
 	width: 276px;
 	height: 276px;
-	background: url(../images/virus-box-1.svg) no-repeat;
+	background: url(../images/dengue/mosquito.png) no-repeat;
 }
 
 .virus-box-2 {

@@ -21,7 +21,7 @@
 	$(window).on('scroll', function(){
 			progress_bars();
 
-		var theta = $(window).scrollTop() / 200 % Math.PI;
+		var theta = $(window).scrollTop() / 200 % Math.PI * 2;
 		$('.hexagon-gradient-left, .triangle-light-blue, .virus-box-1, .virus-box-2').css({ transform: 'rotate(' + theta + 'rad)' });
 
 

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Infectious | Coronavirus (COVID 19) Medical HTML Template</title>
+<title>Dengue | Preveción y Tratamiento</title>
 
 <link rel="shortcut icon" href="assets/images/favicon.ico">
 <link rel="stylesheet" href="assets/css/master.css">
@@ -29,7 +29,7 @@
     <div class="fullscreen-search-overlay" id="search-overlay"> <a href="#" class="fullscreen-close" id="fullscreen-close-button"><i class="mdi mdi-close"></i></a>
       <div id="fullscreen-search-wrapper">
         <form method="get" id="fullscreen-searchform">
-          <input type="text" value="" placeholder="Type and hit Enter..." id="fullscreen-search-input" class="search-bar-top">
+          <input type="text" name="buscar" value="" placeholder="Buscar..." id="fullscreen-search-input" class="search-bar-top">
           <i class="fullscreen-search-icon mdi mdi-magnify">
           <input value="" type="submit">
           </i>
@@ -50,20 +50,20 @@
       <!--=== Start Header Navigation ===-->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="mdi mdi-menu"></i> </button>
-        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="assets/images/logo-black.png" alt=""> <img class="logo logo-scrolled" src="assets/images/logo-black.png" alt=""> </a> </div>
+        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="assets/images/logo.png" alt=""> <img class="logo logo-scrolled" src="assets/images/logo.png" alt=""> </a> </div>
       </div>
       <!--=== End Header Navigation ===-->
 
       <!--=== Collect the nav links, forms, and other content for toggling ===-->
       <div class="collapse navbar-collapse" id="navbar-menu">
         <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
-          <li><a class="page-scroll" href="#home">Home</a></li>
-          <li><a class="page-scroll" href="#about">About Us</a></li>
-          <li><a class="page-scroll" href="#symptom">Symptoms</a></li>
-          <li><a class="page-scroll" href="#prevention">Prevention</a></li>
-          <li><a class="page-scroll" href="#doctor">Our Doctors</a></li>
-          <li><a class="page-scroll" href="#faqs">FAQs</a></li>
-          <li><a class="page-scroll" href="#blog">Blogs</a></li>
+          <li><a class="page-scroll" href="index.html">Inicio</a></li>
+          <li><a class="page-scroll" href="prevencion.html">Prevención</a></li>
+          <li><a class="page-scroll" href="sintomas.html">Síntomas</a></li>
+          <li><a class="page-scroll" href="tratamiento.html">Tratamiento</a></li>
+          <li><a class="page-scroll" href="informacion.html">Información</a></li>
+          <li><a class="page-scroll" href="noticias.html">Noticias</a></li>
+          <li><a class="page-scroll" href="contacto.html">Contacto</a></li>
         </ul>
       </div>
       <!--=== /.navbar-collapse ===-->
@@ -76,16 +76,16 @@
   <section class="home-slider" id="home">
     <div class="default-slider slick">
       <div class="slide">
-        <div class="slide-img parallax-effect" style="background:url(assets/images/slides/home-bg-1.jpg) center center / cover scroll no-repeat;"></div>
+        <div class="slide-img parallax-effect" style="background:url(assets/images/slides/bg-slider.jpg) center center / cover scroll no-repeat;"></div>
         <div class="hero-text-wrap">
           <div class="hero-text">
             <div class="container">
               <div class="row">
                 <div class="col-md-6">
-                  <h3 class="upper-case dark-color font-600">Infectious</h3>
-                  <h1 class="upper-case font-800 default-color">Covid 19</h1>
-                  <p class="dark-color">Coronavirus disease (COVID-19) is an infectious disease caused by a new virus. The disease causes respiratory illness (like the flu) with symptoms such as a cough, fever, and in more severe cases, difficulty breathing.</p>
-                  <p class="text-left mt-30"><a class="btn btn-color btn-circle btn-md">How to Protect</a> </p>
+                  <h3 class="upper-case dark-color font-600">Cuidarse</h3>
+                  <h1 class="upper-case font-800 default-color">DENGUE</h1>
+                  <p class="dark-color">Los virus del dengue se transmiten a las personas por medio de la picadura de un mosquito infectado de la especie Aedes. Casi la mitad de la población mundial, vive en áreas con riesgo de dengue. .</p>
+                  <p class="text-left mt-30"><a class="btn btn-color btn-circle btn-md" href="prevencion.html">¿Cómo Protegerse?</a> </p>
                 </div>
               </div>
             </div>
@@ -99,10 +99,10 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-7">
-                  <h3 class="upper-case dark-color font-600">Stay Home</h3>
-                  <h1 class="upper-case font-800 green-color">Stay Safe</h1>
-                  <p class="dark-color">Italy reported 683 new deaths in the coronavirus pandemic, bringing its total to 7,503. Spain, meanwhile, recorded more than 700 deaths over the past 24 hours.</p>
-                  <p class="text-left mt-30"><a class="btn btn-green btn-circle btn-md">About Virus</a> </p>
+                  <h3 class="upper-case dark-color font-600">Recomendaciones</h3>
+                  <h1 class="upper-case font-800 green-color">PREVENIR</h1>
+                  <p class="dark-color">Cambiar frecuentemente el agua de los bebederos de animales y de los floreros. Tapar los recipientes con agua, eliminar la basura acumulada en patios y áreas al aire libre, eliminar llantas o almacenamiento en sitios cerrados.</p>
+                  <p class="text-left mt-30"><a class="btn btn-green btn-circle btn-md" href="informacion.html">Sobre el Virus</a> </p>
                 </div>
               </div>
             </div>
@@ -119,9 +119,9 @@
   	<div class="container">
   		<div class="row">
   			<div class="col-md-6 heading-style-one box-title-two text-left">
-  				<h6 class="yellow-color text-uppercase">About the Disease</h6>
-  				<h2><span class="font-700">Coronavirus (COVID-19)</h2>
-          <p>An ongoing worldwide pandemic of coronavirus disease 2019 (COVID-19), a novel infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), was first confirmed to have spread to Italy on 31 January 2020, when two Chinese tourists in Rome tested positive for the virus.</p>
+  				<h6 class="yellow-color text-uppercase">SOBRE LA ENFERMEDAD</h6>
+  				<h2><span class="font-700">El Virus del Dengue</h2>
+          <p>El dengue se transmite a través de la picadura de un mosquito infectado. Es una enfermedad que afecta personas de todas las edades, con síntomas que varían entre una fiebre leve a una fiebre incapacitante, acompañado de dolor intenso de cabeza, dolor detrás de los ojos, dolor en músculos y articulaciones, y eritema.</p>
   			</div>
   		</div>
 
