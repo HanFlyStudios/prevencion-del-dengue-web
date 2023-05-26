@@ -1183,7 +1183,74 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a158ed",endCo
 	background: url(../images/mask-icon.svg) no-repeat;
 	background-size: cover;
 }
+.medicina-icono {
+	background: url(../images/dengue/medicina.png) no-repeat;
+	background-size: cover;
+}
+.enfermo-icono {
+	background: url(../images/dengue/enfermo.png) no-repeat;
+	background-size: cover;
+}
+.paracetamol-icono {
+	background: url(../images/dengue/paracetamol.png) no-repeat;
+	background-size: cover;
+}
+.vomitos-icono {
+	background: url(../images/dengue/vomitos.png) no-repeat;
+	background-size: cover;
+}
+.ojos-icono {
+	background: url(../images/dengue/dolor-ojos.png) no-repeat;
+	background-size: cover;
+}
+.glandulas-icono {
+	background: url(../images/dengue/glandulas-inflamadas.png) no-repeat;
+	background-size: cover;
+}
+.reposo-icono {
+	background: url(../images/dengue/reposo.png) no-repeat;
+	background-size: cover;
+}
+.medicina-2-icono {
+	background: url(../images/dengue/medicinas.png) no-repeat;
+	background-size: cover;
+}
+.oxigeno-icono {
+	background: url(../images/dengue/oxigeno.png) no-repeat;
+	background-size: cover;
+}
 
+.liquidos-icono {
+	background: url(../images/dengue/liquidos.png) no-repeat;
+	background-size: cover;
+}
+
+.trasfusion-icono {
+	background: url(../images/dengue/transfusion.png) no-repeat;
+	background-size: cover;
+}
+
+.sangrado-icono {
+	background: url(../images/dengue/sangrado.png) no-repeat;
+	background-size: cover;
+}
+
+.sarpullido-icono {
+	background: url(../images/dengue/sarpullido.png) no-repeat;
+	background-size: cover;
+}
+.encias-icono {
+	background: url(../images/dengue/encias.png) no-repeat;
+	background-size: cover;
+}
+.hospitalizacion-icono {
+	background: url(../images/dengue/hospitalizacion.png) no-repeat;
+	background-size: cover;
+}
+.hidratarse-icono {
+	background: url(../images/dengue/hidratarse.png) no-repeat;
+	background-size: cover;
+}
 .infection-icon {
 	background: url(../images/infection-icon.svg) no-repeat;
 	background-size: cover;
@@ -1420,6 +1487,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a158ed",endCo
 
 .box-wrap{margin-top: 20px;margin-bottom: 20px;position: relative;}
 .box-wrap .img-wrp{width: 120px;height: 120px;margin: 0 auto;display: block;background-color: #fff;box-shadow: 0px 4px 35px 0px rgba(70, 86, 117, 0.15);border-radius: 100px;}
+.box-wrap .img-wrp .img-responsive{border-radius: 50%;}
 .box-wrap h4{font-size: 16px;color: #212121;font-weight: 600;margin-top: 20px;}
 .box-wrap span{position: absolute;top: 0;left: 25px;background-color: #8D3FD0;color: #fff;border-radius: 100px;text-align: center;font-size: 12px;line-height: 20px;display: block;font-weight: 600;font-family: 'Montserrat', sans-serif;    width: 22px;height: 22px;}
 
@@ -1475,7 +1543,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a158ed",endCo
 	top:2%;
 	width: 300px;
 	height: 300px;
-	background: url(../images/virus-box-2.svg) no-repeat;
+	background: url(../images/dengue/mosquito.png) no-repeat;
 }
 
 .circle-box-big:after {
