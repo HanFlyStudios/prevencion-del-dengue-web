@@ -1,11 +1,11 @@
 <?php
-$to = "mail@gmail.com";
+$to = "leviperez1994@gmail.com";
 $subject = $_POST['subject'];
 $body = "From, " . $_POST['name'] . "\n\n" . "Email, " . $_POST['email'] . "\n\n" . $_POST['message'];
 if (mail($to, $subject, $body)) {
-  $responseArray = array('class' => 'alert alert-success', 'message' => 'Message sent successfully. Thank you, will get back to you soon!');
+  $responseArray = array('class' => 'alert alert-success', 'message' => 'Mensaje enviado con éxito. ¡Gracias, le responderé pronto!');
 } else {
-  $responseArray = array('class' => 'alert alert-danger', 'message' => 'There was an error while submitting the form. Please try again later.');
+  $responseArray = array('class' => 'alert alert-danger', 'message' => 'Hubo un error al enviar el formulario. Por favor, inténtelo de nuevo más tarde.');
 }
 
 $encoded = json_encode($responseArray);
